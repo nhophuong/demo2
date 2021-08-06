@@ -1,0 +1,519 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+#hinhtong
+{
+	width: 100%;
+	height:7350px;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	background-color:goldenrod;
+
+}
+.thanhmenu
+{
+	width: 100%;
+	height: 100px;
+	background-color:#FFFFFF;
+	position: fixed;
+}
+.logo
+{
+	width: 25%;
+	height: 100px;
+	background-color:#FFFFFF;
+	float: left;
+}
+.logo2
+{
+	width: 25%;
+	height: 100px;
+	background-color:#FFFFFF;
+	float: left;
+}
+.menu
+{
+	width: 50%;
+	height: 100px;
+	background-color:#FFFFFF;
+	float:right;
+}
+.menu ul
+{
+	list-style: none;
+}
+.menu ul li
+{
+	float: left;
+	padding: 25px 20px 5px 20px;
+	position: relative;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color:#202020;
+}
+.menu ul li:hover
+{
+	border-bottom: 2px solid #9A0002;
+}
+.menu ul li ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    visibility: hidden;
+	background-color: #FFFFFF;
+}
+.menu ul li ul li {
+    width: 100px;
+    border-bottom-color: yellow;
+}
+.menu ul li:hover ul {
+    visibility: visible;
+}
+.hinh1
+{
+	width: 100%;
+	height: 1000px;
+	background:url("../images/BIAMEO.png");
+}
+.hinh1_1
+{
+	width: 170px;
+	height: 50px;
+	background-color: brown;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 35pt;
+}
+.hinh1_1:hover
+{
+	background-color:#000000;
+}
+.hinh2
+{
+	width: 100%;
+	height: 800px;
+	background-color:#FFFFFF;
+}
+.hinh2_1
+{
+	width: 50%;
+	height: 800px;
+	background:url("../images/mt-1774-home-about.jpg");
+	float: left;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.hinh2_2
+{
+	width: 50%;
+	height: 800px;
+	background-color:#FFFFFF;
+	float: right;
+}
+.hinh2_21
+{
+	width: 100%;
+	height: 15px;
+	background-color:brown;
+	float: right;
+	border-radius: 10px;
+}
+.hinh2_22
+{
+	width: 90%;
+	height: 15px;
+	background-color:goldenrod;
+	float: left;
+	border-radius: 10px;
+}
+.hinh2_23
+{
+	width: 80%;
+	height: 15px;
+	background-color:goldenrod;
+	float: left;
+	border-radius: 10px;
+}
+.hinh2_24
+{
+	width: 75%;
+	height: 15px;
+	background-color:goldenrod;
+	float: left;
+	border-radius: 10px;
+}
+.hinh3
+{
+	width: 100%;
+	height: 500px;
+	background:url("../images/BIA1.png");
+	display: flex;
+	justify-content: center;
+}
+.hinh3_1
+{
+	width: 25%;
+	height: 300px;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 6% 1% 6% 1%;
+	box-sizing: border-box;
+}
+.hinh3_1a
+{
+	width: 100%;
+	height: 150px;
+	background-color:#FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+.hinh3_1b
+{
+	width: 100%;
+	height: 150px;
+	background-color:#FFFFFF;
+	text-align: center;
+}
+.hinh4
+{
+	width: 100%;
+	height: 1100px;
+	background-color: #FFFFFF;
+	
+}
+.hinh4_1
+{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 9% 1% 5% 1%;
+	box-sizing: border-box;
+}
+.hinh4_1a
+{
+	width: 100%;
+	height: 100px;
+	background-color: #FFFFFF;
+}
+.hinh4_1a ul
+{
+	list-style: none;
+	padding: 2% 36% 2% 36%;
+}
+.hinh4_1a ul li
+{
+	float: left;
+	padding: 30px 20px 5px 20px;
+	
+}
+.hinh4_1a ul li a
+{
+	text-decoration: none;
+	color:#202020;
+	padding: 0% 0% 5% 0%;
+}
+.hinh4_1a ul li:hover
+{
+	border-bottom: 2px solid #FBBD05;
+}
+.hinh4_2
+{
+	width: 100%;
+	height: 600px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+.hinh4_2a
+{
+	width: 270px;
+	height: 600px;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 0% 1% 6% 1%;
+	box-sizing: border-box;
+}
+.hinh5
+{
+	width: 100%;
+	height: 600px;
+	background:url("../images/biameonho.png");
+}
+.hinh5 input
+{
+	width: 600px;
+	height: 50px;
+    box-sizing: border-box;
+}
+.hinh5_1
+{
+	width: 150px;
+	height: 50px;
+	background-color: brown;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 35pt;
+}
+.hinh5_1:hover
+{
+	background-color:#000000;
+}
+.hinh6
+{
+	width: 100%;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+.hinh6_1
+{
+	width: 100%;
+	height: 250px;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 7% 1% 5% 1%;
+	box-sizing: border-box;
+}
+.hinh6_2
+{
+	width: 100%;
+	height: 750px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+.hinh6_2a
+{
+	width: 370px;
+	height: 750px;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 0% 1% 0% 1%;
+	box-sizing: border-box;
+}
+.hinh7
+{
+	width: 100%;
+	height: 250px;
+	background:url("../images/BIA2.png");
+	display: flex;
+	justify-content: center;
+}
+.hinh7_1
+{
+	width: 11%;
+	height: 250px;
+	float: left;
+	margin: 0% 1% 0% 1%;
+	padding: 5% 0 5% 0;
+	box-sizing: border-box;
+}
+.hinh8
+{
+	width: 100%;
+	height: 600px;
+	background-color: #FFFFFF;
+}
+.hinh8_1
+{
+	width: 100%;
+	height: 250px;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 8% 1% 5% 1%;
+	box-sizing: border-box;
+}
+.hinh8_2
+{
+	width: 100%;
+	height: 150px;
+	background-color: #FFFFFF;
+}
+.hinh8_3
+{
+	width: 100%;
+	height: 200px;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 0px 400px 0px 400px;
+    box-sizing: border-box;
+}
+.hinh9
+{
+	width: 100%;
+	height: 350px;
+	background-color:#FFFFFF;
+	padding: 0% 2% 0% 2%;
+}
+.hinh9_1
+{
+	width: 350px;
+	height: 350px;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 0% 1% 0% 1%;
+	box-sizing: border-box;
+}
+.hinh9_1a
+{
+	width: 350px;
+	height: 165px;
+	background-color:burlywood;
+}
+.hinh9_1b
+{
+	width: 350px;
+	height: 165px;
+	background-color:burlywood;
+	margin: 20px 0px 0px 0px;
+}
+.hinh10
+{
+	width: 100%;
+	height: 800px;
+	background-color:#FFFFFF;
+}
+.hinh10_1
+{
+	width: 100%;
+	height: 250px;
+	background-color:#FFFFFF;
+    text-align: center;
+	padding: 5% 1% 5% 1%;
+	box-sizing: border-box;
+}
+.hinh10_2
+{
+	width: 100%;
+	height: 550px;
+	background-color:#FFFFFF;
+	box-sizing: border-box;
+}
+.hinh10_2a
+{
+	width: 38%;
+	height: 400px;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 0% 1% 0% 11%;
+	box-sizing: border-box;
+}
+.hinh10_2a1
+{
+	width: 38%;
+	height: 350px;
+	background-color:#FFFFFF;
+	margin: 0;
+	box-sizing: border-box;
+}
+.hinh10_2a1 input
+{
+	width: 100%;
+	height: 50px;
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0px 20px 0px;
+    box-sizing: border-box;
+}
+.hinh10_2a2
+{
+	width: 150px;
+	height: 50px;
+	background-color: brown;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 35pt;
+	box-sizing: border-box;
+}
+.hinh10_2a2:hover
+{
+	background-color:#000000;
+}
+.hinh10_2b
+{
+	width: 38%;
+	height: 400px;
+	background-color:#FFFFFF;
+	float: right;
+	margin: 0% 11% 0% 1%;
+	box-sizing: border-box;
+}
+.hinh11
+{
+	width: 100%;
+	height: 300px;
+	background-color:#000000;
+	
+	padding: 0% 6% 0% 15%;
+	box-sizing: border-box;
+}
+.hinh11_1
+{
+	width: 27%;
+	height: 300px;
+	background-color:#000000;
+	float: left;
+	margin: 0% 1% 0% 1%;
+	
+	box-sizing: border-box;
+  
+}
+.hinh11_1a
+{
+	width: 100%;
+	height: 150px;
+	background-color:#000000;
+	box-sizing: border-box;
+}
+.hinh11_1a1
+{
+	width: 30%;
+	height: 150px;
+	background-color:#000000;
+	float: left;
+	padding: 0;
+}
+.hinh11_1a2
+{
+	width: 70%;
+	height: 150px;
+	background-color:#000000;
+	float: left;
+	left: 70px;
+}
+.hinh11_2 input
+{
+	width: 100%;
+	height: 50px;
+    box-sizing: border-box;
+}
+.hinh11_3
+{
+	width: 150px;
+	height: 50px;
+	background-color: brown;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 35pt;
+}
+.hinh11_3:hover
+{
+	background-color:#000000;
+}
+.hinh11_2
+{
+	width: 27%;
+	height: 300px;
+	background-color:#000000;
+	float: left;
+	margin: 0% 1% 0% 1%;
+	padding: 70px 0px 0px 3px;
+	box-sizing: border-box;
+  
+}
